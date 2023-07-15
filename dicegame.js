@@ -52,7 +52,6 @@ if (scores[activePlayer] >= 50){
     document.querySelector(`.player--${activePlayer}`).classList.remove("player--active");
     document.getElementById(`name--${activePlayer}`).textContent = "You win!";
     dice1.classList.add("hidden");
-    document.querySelector(".reo").classList.remove("hidden");
 } else {
     currentScore = 0;
     document.getElementById(`current--${activePlayer}`).textContent = 0;
